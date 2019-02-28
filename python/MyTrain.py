@@ -10,10 +10,10 @@ import torch.nn as nn
 from torch import optim
 # customized import
 # from [filename] import [function name]
-from .load import *
-from .utils import split_train_val, batch
-from .fcn import *
-from .metrics import *
+from python.load import *
+from python.utils import split_train_val, batch
+from python.fcn import *
+from python.metrics import *
 ###########################################################################
 #                               Train                                     #
 ###########################################################################
