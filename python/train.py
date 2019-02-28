@@ -10,7 +10,7 @@ from torch.autograd import Variable
 from torch.utils.data import DataLoader
 
 from python.fcn import VGGNet, FCN32s, FCN16s, FCN8s, FCNs
-from python.Cityscapes_loader import CityscapesDataset
+# from python.Cityscapes_loader import CityscapesDataset
 from python.CamVid_loader import CamVidDataset
 
 from matplotlib import pyplot as plt
