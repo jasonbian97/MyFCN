@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15d8a88a-edf2-41e9-9283-41f90337d278" name="Default Changelist" comment="Default Changelist">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/MyTrain.py" afterPath="$PROJECT_DIR$/python/MyTrain.py" />
-    </list>
+    <list default="true" id="15d8a88a-edf2-41e9-9283-41f90337d278" name="Default Changelist" comment="Default Changelist" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +46,11 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3329">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="147">
+              <caret line="164" column="21" lean-forward="false" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
+              <folding>
+                <element signature="e#25#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -314,7 +314,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -416,9 +418,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3329">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="147">
+          <caret line="164" column="21" lean-forward="false" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
