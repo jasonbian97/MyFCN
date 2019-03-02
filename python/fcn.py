@@ -156,7 +156,7 @@ class FCNs(nn.Module):
 
 
 class VGGNet(VGG):
-    def __init__(self, pretrained=False, model='vgg11', requires_grad=True, remove_fc=True, show_params=False):
+    def __init__(self, pretrained=False, model='vgg16', requires_grad=True, remove_fc=True, show_params=False):
         super().__init__(make_layers(cfg[model]))
         self.ranges = ranges[model]
 

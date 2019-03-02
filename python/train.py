@@ -34,7 +34,7 @@ print("Configs:", configs)
 
 if sys.argv[1] == 'CamVid':
     root_dir   = "CamVid/"
-else
+else:
     root_dir   = "CityScapes/"
 train_file = os.path.join(root_dir, "train.csv")
 val_file   = os.path.join(root_dir, "val.csv")
@@ -124,12 +124,12 @@ def val(epoch):
             inputs = Variable(batch['X'])
 
         output = fcn_model(inputs)
-        output = output.data.cpu().numpy()
-
-        N, _, h, w = output.shape
-        pred = output.transpose(0, 2, 3, 1).reshape(-1, n_class).argmax(axis=1).reshape(N, h, w)
-
-        target = batch['l'].cpu().numpy().reshape(N, h, w)
+        # output = output.data.cpu().numpy()
+        #
+        # N, _, h, w = output.shape
+        # pred = output.transpose(0, 2, 3, 1).reshape(-1, n_class).argmax(axis=1).reshape(N, h, w)
+        #
+        # target = batch['l'].cpu().numpy().reshape(N, h, w)
         for p, t in zip(pred, target):
             total_ious.append(iou(p, t))
             pixel_accs.append(pixel_acc(p, t))

@@ -39,22 +39,6 @@ def resizeto224(pilimg):
     img = pilimg.resize((newW, newH))
     return np.array(img, dtype=np.float32)
 
-def resize2(img, SizeX,SizeY):
-    # for 3 channel
-    img=img.transpose((1,2,0))
-    img=cv2.resize(img,(SizeY,SizeX))
-    img = img.transpose((2,0,1))
-    return img
-
-def resize3(img, SizeX,SizeY):
-    # for 1 channel
-    img=cv2.resize(img,(SizeY,SizeX))
-    return img
-
-def cvt2binary(img):
-    Bi=img==255
-    Bi=Bi*1
-    return Bi
 
 def batch(iterable, batch_size):
     """Yields lists by batch"""
